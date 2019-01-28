@@ -7,6 +7,7 @@ class Owner
     @name = name
     @@all << self
     SPECIES = "human"
+    @species = SPECIES
 
   end
 
