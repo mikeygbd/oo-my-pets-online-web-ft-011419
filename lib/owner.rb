@@ -6,8 +6,9 @@ class Owner
   def initialize(name)
     @name = name
     @@all << self
-    
+
     @species = SPECIES
+    SPECIES = "human"
 
   end
 
