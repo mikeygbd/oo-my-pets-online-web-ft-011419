@@ -12,7 +12,7 @@ class Owner
     @@all
   end
 
-  def count
+  def self.count
     self.all.count
 
   end
