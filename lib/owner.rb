@@ -24,9 +24,9 @@ class Owner
     self.all.clear
   end
 
-  def species(name)
-    # @name = name
+  # def species(name)
+  #
+  # end
 
-  end
 
 end
