@@ -13,10 +13,10 @@ class Owner
   end
 
   def self.count
-    self.all.length
     if self.reset_all
       self.all.reset
     end
+      self.all.length
   end
 
   def reset_all
