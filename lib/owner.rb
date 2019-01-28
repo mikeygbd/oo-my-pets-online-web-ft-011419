@@ -13,9 +13,9 @@ class Owner
   end
 
   def self.count
-    self.all.count
-    self.all.clear
 
+    self.all.clear
+    self.all.count
   end
 
 end
