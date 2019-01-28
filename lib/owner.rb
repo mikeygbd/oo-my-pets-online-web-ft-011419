@@ -2,11 +2,11 @@ class Owner
   # code goes here
   attr_accessor :pets, :species
   @@all = []
-  SPECIES = "human"
+
   def initialize(name)
     @name = name
     @@all << self
-    SPECIES
+    SPECIES = "human"
 
   end
 
