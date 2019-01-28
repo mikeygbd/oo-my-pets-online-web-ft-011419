@@ -25,9 +25,10 @@ class Owner
     self.all.clear
   end
 
-  # def species(name)
-  #
-  # end
+  def say_species
+    "I am #{@species}"
+
+  end
 
 
 end
