@@ -4,7 +4,7 @@ class Owner
   @@all = []
 
   def self.all
-    @@all << self
+    @@all << self.new
     @@all
 
   end
